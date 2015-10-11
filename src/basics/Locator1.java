@@ -11,7 +11,7 @@ public class Locator1 {
 		String URL = "https://www.facebook.com";
 		driver.get(URL);
 		driver.findElement(By.id("email")).sendKeys("karabelnikava@gmail.com");
-		driver.findElement(By.name("pass")).sendKeys("alexdasha");
+		driver.findElement(By.name("pass")).sendKeys("test");
 		driver.findElement(By.xpath("//input[@id = 'u_0_x']")).click();
 	}
 
